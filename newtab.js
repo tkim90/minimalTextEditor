@@ -3,6 +3,7 @@
 // multiple tabs
 // reduce indent space from 4 to 2
 // make screen responsive to larger monitors
+// undo function
 
 // DONE
 // fullscreen mode
