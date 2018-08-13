@@ -2,6 +2,8 @@
 
 A minimal, lightweight, offline text editor.
 
+Check it out on the [Chrome Web Store.](https://chrome.google.com/webstore/detail/minimal-text-editor/dcieocifpjgoigblofimlgcpffccefij)
+
 ## **Features**
 
 - Clean UI
