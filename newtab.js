@@ -60,9 +60,7 @@ let editor = {
 
     // toggle fullscreen button 
     $('#fullscreen').on('click', function () {
-      console.log('god fucking damnit i fucking called the fucking vent listener fuck')
       toggleFullscreen();
-      console.log('fucking stopped calling it fucking cunt')
     });
 
     // tab to indent
