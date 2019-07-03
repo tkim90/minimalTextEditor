@@ -1,12 +1,18 @@
 textarea, input, button { outline: none; }
 
+textarea,
+pre {
+    -moz-tab-size : 2;
+      -o-tab-size : 2;
+         tab-size : 2;
+}
 
 .main {
 	padding-top: 100px;
 	text-align: center;
 }
 
-#canvas {
+#textBox {
     border: 1px dashed #999;
     background: transparent;
     width: 600px;
@@ -14,9 +20,7 @@ textarea, input, button { outline: none; }
     margin: 0 auto;
     padding: 5px;
     font-size: 20px;
-
-    resize:none;
-
+		resize:none;
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
     appearance: textfield;
@@ -31,7 +35,7 @@ textarea, input, button { outline: none; }
 	cursor: pointer;
 }
 
-.canvas-dark {
+.textBox-dark {
 	/*color: #BDC7C1;*/
 	color: #AEAFB3;
 	background: transparent;
@@ -90,18 +94,18 @@ span {
 
 @media only screen and (min-width: 480px) {
   /* Style adjustments for viewports 480px and over go here */
-	.canvas { max-width: 440px; }
+	.textBox { max-width: 440px; }
 }
 
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports 768px and over go here */
-	.canvas { max-width: 600px; }
+	.textBox { max-width: 600px; }
 }
 
 @media only screen and (min-width: 1280) {
-	.canvas { max-width: 880px; }
+	.textBox { max-width: 880px; }
 }
 
 @media only screen and (min-width: 1600) {
-	.canvas { max-width: 1200px; }
+	.textBox { max-width: 1200px; }
 }
