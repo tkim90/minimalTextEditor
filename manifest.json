@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Minimal Text Editor",
-	"version": "1.02",
+	"version": "1.03",
 	"description": "A minimal, lightweight, offline text editor.",
 	"icons": {
 		"128": "icon_128.png",
