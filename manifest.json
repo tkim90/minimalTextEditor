@@ -19,8 +19,5 @@
 		"newtab.html",
 		"newtab.css",
 		"js/newtab.js"
-	],
-	"permissions": [
-	  "storage"
 	]
 }
